@@ -33,6 +33,7 @@ Internet Explorer 6-8, Firefox 3, Safari 3-4, Chrome, Opera 9.
 
 ## Release History ##
 
+0.5.1 - (7/26/2014) Remove browser sniffing  
 0.5 - (9/11/2009) Improved cache-busting  
 0.4 - (8/25/2009) Initial release
 

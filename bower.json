@@ -1,0 +1,30 @@
+{
+  "name": "jquery-postmessage",
+  "version": "0.5.0",
+  "homepage": "https://github.com/cowboy/jquery-postmessage",
+  "description": "Cross-domain scripting goodness",
+  "main": "jquery.ba-postmessage.js",
+  "keywords": [
+    "jquery",
+    "postmessage"
+  ],
+  "authors": [
+    "Ben Alman"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "README.markdown",
+    "docs",
+    "examples",
+    "shared"
+  ],
+  "dependencies": {
+    "jquery": ">=1"
+  }
+}
