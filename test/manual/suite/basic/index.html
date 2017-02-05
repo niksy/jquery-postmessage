@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<title>postMessage test</title>
+	<style>
+		iframe {
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<div id="page">
+		<div id="content">
+			<p>Note that both parent and child need to include the postMessage module, and for communication to be enabled in browsers that don't support window.postMessage, the child page must know the exact parent URL (in this example, that is done by passing the parent location into the Iframe using a hash param in the Iframe src attribute).</p>
+			<p id="nav"></p>
+			<div class="clear" id="iframe"></div>
+			<h3>The parent window code</h3>
+		</div>
+	</div>
+	<script src="basic/index.js"></script>
+</body>
+</html>

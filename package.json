@@ -1,0 +1,52 @@
+{
+  "name": "@niksy/postmessage",
+  "version": "0.0.0",
+  "description": "Simple and easy window.postMessage communication.",
+  "main": "dist/index.js",
+  "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel '{index,lib/**/*}.js' --out-dir dist/",
+    "lint": "eslint 'index.js,test/**/*.js'",
+    "prepublish": "npm run build",
+    "test": "npm run lint",
+    "test:manual:local": "gulp test:local:manual --watch"
+  },
+  "devDependencies": {
+    "@niksy/babayaga": "^0.1.1",
+    "babel-cli": "^6.18.0",
+    "babel-preset-niksy": "^1.0.0",
+    "babelify": "^7.3.0",
+    "del": "^2.2.0",
+    "eslint": "^3.1.1",
+    "eslint-config-niksy": "^3.0.1",
+    "globby": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "jquery": "^2.2.4",
+    "local-web-server": "^1.2.4",
+    "minimist": "^1.2.0",
+    "opn": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "postmessage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksy/postmessage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niksy/postmessage/issues"
+  },
+  "homepage": "https://github.com/niksy/postmessage#readme"
+}
