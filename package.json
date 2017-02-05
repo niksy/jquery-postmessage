@@ -1,6 +1,6 @@
 {
   "name": "@niksy/postmessage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and easy window.postMessage communication.",
   "main": "dist/index.js",
   "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
