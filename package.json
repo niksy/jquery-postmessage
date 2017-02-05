@@ -6,7 +6,7 @@
   "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
   "license": "MIT",
   "scripts": {
-    "build": "babel '{index,lib/**/*}.js' --out-dir dist/",
+    "build": "babel '{index,post-message,receive-message,lib/**/*}.js' --out-dir dist/",
     "lint": "eslint 'index.js,test/**/*.js'",
     "prepublish": "npm run build",
     "test": "npm run lint",
