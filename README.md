@@ -25,8 +25,8 @@ pm.postMessage('hello world', 'http://benalman.com/test.html', parent);
 Or, as separate modules:
 
 ```js
-const send = require('@niksy/postmessage/post-message');
-const receive = require('@niksy/postmessage/receive-message');
+const send = require('@niksy/postmessage/dist/post-message');
+const receive = require('@niksy/postmessage/dist/receive-message');
 
 receive(( e ) => {
 	alert(e.data);

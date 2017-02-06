@@ -1,4 +1,6 @@
 index.js
 post-message.js
 receive-message.js
+test-dist/
 lib/*
+!dist/*

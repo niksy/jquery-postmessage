@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
   "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "build": "babel '{index,post-message,receive-message,lib/**/*}.js' --out-dir dist/",
     "lint": "eslint 'index.js,test/**/*.js'",
